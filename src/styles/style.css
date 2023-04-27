@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+input, button {
+    font-family: 'Open Sans', sans-serif;
+    /* background: url("mona.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+input, button {
+    font-size: 16px;
+}
+
+.HEAD {
+    margin-bottom: 20px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    box-shadow: 4px 10px 30px -9px rgba(0,0,0,0.65);
+-webkit-box-shadow: 4px 10px 25px -9px rgba(0,0,0,0.65);
+-moz-box-shadow: 4px 10px 25px -9px rgba(0,0,0,0.65);
+}
+
+main {
+    margin: 0 auto;
+    padding: 16px;
+    width: 90%;
+
+}
+
+.Form_note {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #1F2937;
+    box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+}
+
+.Form_note > h2 {
+    text-align: center;
+    color: white;
+}
+
+.Form_note > form > .input {
+    margin: 8px 0;
+}
+
+.Form_note > form > button {
+    background-color: white;
+    color: #1F2937;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+.Form_note > form > button:hover {
+    font-weight: bold;
+}
+.Form_note > form > button > span {
+    font-weight: bold;
+}
+
+.Form_note > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.Form_note > form > .input > div {
+    color: white;
+    font-weight: bold;
+}
+
+.Form_note > form > .input > div > p{
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+
+.Form_note > form > .input > label {
+    color: white;
+    font-weight: bold;
+}
+
+.Form_note > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.Form_note > form > .input_inline > label {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Form_Cari {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-radius: 10px;
+    background: aliceblue;
+    box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+}
+
+.Form_Cari > h2 {
+    color: black;
+}
+
+.Form_Cari > form {
+    padding: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.Form_Cari > form > label {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bolder;
+}
+
+.Form_Cari > form > input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Form_Cari > form > a {
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #064E3B;
+    text-decoration: none;
+    background-color: #064E3B;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Form_Cari > form > a:hover {
+    border: 2px solid #064E3B;
+    background: white;
+    color: #064E3B;
+}
+.Fitur {
+    margin-bottom: 16px;
+    /* text-shadow: 0 0 3px black; */
+    padding: 36px;
+    color: white;
+    border-radius: 10px;
+    background-color: #25424c;
+    box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+}
+
+.Fitur h2 {
+    text-align: center;
+}
+
+.note_shelf {
+    margin: 0 0 20px 20px;
+    padding: 16px 36px;
+    border-radius: 10px;
+    /* background: #002447; */
+    background-color: #1F2937;
+    box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 2px 0px 20px -5px rgba(0,0,0,0.65);
+}
+.note_shelf > h2 {
+    color: white;    
+}
+
+.note_shelf > .note_list {
+    padding: 1px;
+}
+article {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 2px 0px 10px -5px rgba(0,0,0,0.65) ;
+    -webkit-box-shadow: 2px 0px 15px -5px rgba(0,0,0,0.65) ;
+    -moz-box-shadow: 2px 0px 10px -5px rgba(0,0,0,0.65) ;
+    border: white;
+}
+.note_shelf > .note_list > .note_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px 0;
+    background: white;
+    
+}   
+
+.note_shelf > .note_list > .note_item > h2, p {
+    margin: 8px 0;
+}
+
+.note_shelf > .note_list > .note_item > button {
+    border: 0;
+    padding: 8px;
+    margin: 0 5px 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+}
+.note_shelf > .note_list > .note_item > button:hover {
+    background: #002447;
+    color: white;
+}
+.note_shelf > .note_list > .note_item > .note-item__archived {
+    background-color: #064E3B;
+    color: white;
+}
+
+.note_shelf > .note_list > .note_item > .note-item__delete {
+    background-color: darkred;
+    color: white;
+}
+.note_shelf > .note_list > .note_item > .action > .yellow {
+    background-color: rgb(241, 121, 0);
+    color: white;
+}
+
+input {
+    color: black;
+    background: white;
+    box-shadow: 2px 0px 10px -5px rgba(0,0,0,0.65) inset;
+    -webkit-box-shadow: 2px 0px 15px -5px rgba(0,0,0,0.65) inset;
+    -moz-box-shadow: 2px 0px 10px -5px rgba(0,0,0,0.65) inset;
+    border: white;
+}
+
+textArea{
+    font-family: 'Open Sans', sans-serif;
+    border-radius:5px;
+    padding: 5px;
+    width: 100%;
+    height: 120px;
+}
+.kiri {
+    float: left;
+    width: 45%;
+}
+.kanan {
+    float: right;
+    width: 55%;
+    padding-left: 8px;
+    
+}
+
+@media screen and (max-width: 900px) { /*Recponsive*/
+    .kiri,
+    .kanan {
+      width: 100%;
+      padding: 0;
+    }
+    .Form_Cari > form {
+        padding: 16px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    .note_shelf {
+        margin: 0 0 20px 0;
+    }
+}
